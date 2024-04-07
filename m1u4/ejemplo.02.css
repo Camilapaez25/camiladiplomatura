@@ -1,0 +1,11 @@
+h2{
+    background-color: aqua;
+    color: brown;
+    text-align: center;
+}
+p{
+    background-color: black;
+    color: bisque;
+    text-align: right;
+    font-weight: bold;
+}
