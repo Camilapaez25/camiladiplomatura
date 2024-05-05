@@ -1,0 +1,52 @@
+@media screen and (max-width:800px) {
+
+    body {
+        background-color: #464D67;
+        color: black;
+        font-size: medium;
+        height: 400px;
+    }
+
+    nav {
+        background-color: #FACC2E;
+        width: 100%;
+        border-bottom: 2px solid black;
+
+    }
+
+    #contenedor {
+        width: 800px;
+        background-color: #363A3F;
+    }
+
+    .holder {
+        display: block
+    }
+
+    nav ul li {
+        list-style: none;
+        padding: 5px;
+
+    }
+
+    nav ul li a {
+        color: black;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    section {
+        background-color: #D3D5D9;
+        border-bottom: 2px solid black;
+        float: left;
+
+    }
+
+    aside {
+        background-color: #A0A4AB;
+        border-bottom: 2px solid black;
+        float: left;
+
+    }
+
+}
