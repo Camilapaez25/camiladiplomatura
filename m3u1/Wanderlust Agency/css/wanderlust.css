@@ -77,3 +77,32 @@ h2{
 .Trayectoria h2{
     font-weight: 150;
 }
+
+.Personas{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+.persona{
+    border: 1px;
+    border-radius: 1px;
+    width: 18%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #E7BBCA;
+}
+
+.persona img{
+    border-radius: 50%;
+    max-width: 80%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.persona h5{
+    font-size: 17px;
+    font-weight: -300;
+}
+.persona h6{
+    font-size: 13px;
+    font-weight: -100;
+}
