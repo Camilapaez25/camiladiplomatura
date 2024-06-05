@@ -103,6 +103,96 @@ h2{
     font-weight: -300;
 }
 .persona h6{
-    font-size: 13px;
+    font-size: 14px;
     font-weight: -100;
+}
+.persona p{
+    font-size: 13px;
+}
+
+/*fin nosotros*/
+
+/*Inicio Destinos*/
+
+.Destino{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #E7BBCA;
+}
+
+.Destino .info h4{
+    font-style: italic;
+    border-bottom: 1px solid ;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.Destino .info p{
+    font-size: 15px;
+}
+
+.Destino img{
+    border-radius: 50px;
+    display: block;
+
+}
+.Destino:nth-child(even){
+flex-direction: row-reverse;
+}
+
+/* Fin Destinos*/
+
+.Ofertas{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #E7BBCA;
+}
+
+.Ofertas .info li{
+    font-weight: 500;
+}
+
+.Formularios p{
+    display: flex;
+    margin-left: 40px;
+}
+
+.formulario label{
+    width: 200px;
+    background-color:#E6DEE1;
+}
+.formulario p textarea,
+.formulario p input{
+    width: 300px
+}
+.formulario p input,
+.formulario p textarea {
+font-size: 14px;
+border-radius: 5px;
+border: 1px solid black;
+background-color: #E6DEE1;
+height: 20px;
+width: 300px;    
+}
+.formulario p textarea{
+    height: 150px;
+}
+
+.formulario input[type="submit"]{
+    width: 506px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.formulario input[type="submit"]:hover{
+    background-color: #777576;
 }
